@@ -21,7 +21,6 @@ function Home(){
     return (
         <div className="row mt-3">
             <div className="col">
-                <h4 className="mb-3">Bienvenue sur l'application des cocktails !</h4>
                 <CocktailsList cocktails={cocktails} isFetching={isFetching} fetchError={fetchError} title="Les cocktails du moment"/>
             </div>
         </div>
