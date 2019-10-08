@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 function CocktailListItem({cocktail}){
     return (
-        <div className="col-3 my-2">
+        <div className="col-xl-2 col-md-3 col-sm-6 col-12 my-2">
             <div className="card">
                 <img src={cocktail.strDrinkThumb} className="card-img-top" />
                 <div className="card-body">

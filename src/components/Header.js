@@ -6,7 +6,7 @@ function Header(){
     return(
         <div className="row mb-2">
             <div className="col">
-                <nav className="navbar navbar-dark bg-primary navbar-expand-sm">
+                <nav className="navbar navbar-dark bg-primary navbar-expand">
                     <span className="navbar-brand mb-0 h1">Cocktail App</span>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
